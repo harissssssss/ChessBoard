@@ -24,25 +24,6 @@ A simple Java console application that simulates legal movements for **King**, *
 
 ---
 
-## 📦 Project Structure
-
-chess-movement-simulator/
-├── src/
-│ ├── main/
-│ │ ├── java/
-│ │ │ ├── model/ # Piece classes (King, Queen, Pawn)
-│ │ │ ├── factory/ # PieceFactory for dynamic instantiation
-│ │ │ ├── util/ # Position class and helper engine
-│ │ │ └── ChessBoard.java # Main class with Scanner input
-│ └── test/
-│ └── java/
-│ ├── model/ # Tests for piece logic
-│ ├── factory/ # Tests for PieceFactory
-│ ├── util/ # Tests for Position and Engine
-│ └── ChessBoardTest.java
-├── pom.xml
-└── README.md
-
 
 
 ---
@@ -55,5 +36,6 @@ chess-movement-simulator/
 git clone https://github.com/your-username/chess-movement-simulator.git
 cd chess-movement-simulator
 
-## 🚀 Build the Project
+---
+## 🚀 How to Run
 mvn clean compile
