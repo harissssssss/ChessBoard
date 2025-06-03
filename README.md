@@ -24,10 +24,6 @@ A simple Java console application that simulates legal movements for **King**, *
 
 ---
 
-
-
----
-
 ## 🚀 How to Run
 
 ### 1. Clone the Repository
@@ -35,7 +31,15 @@ A simple Java console application that simulates legal movements for **King**, *
 ```bash
 git clone https://github.com/your-username/chess-movement-simulator.git
 cd chess-movement-simulator
+```
 
----
-## 🚀 How to Run
+### 2. Build the Project
+```bash
 mvn clean compile
+```
+### 2. Run the Program
+```bash
+mvn exec:java -Dexec.mainClass="ChessBoard"
+```
+
+
